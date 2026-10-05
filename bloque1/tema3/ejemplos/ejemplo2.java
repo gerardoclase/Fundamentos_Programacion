@@ -7,8 +7,15 @@ public class ejemplo2 {
   Scanner sc = new Scanner(System.in);
   System.out.print("Nombre: "); 
   String nombre = sc.nextLine();
+
   System.out.print("Edad: ");
   int Edad = sc.nextInt();
+    sc.nextLine();
+
+  System.out.print("Dime tu incial");
+  char inicial = sc.nextLine().charAt(0);
+
   System.out.println("Hola " + nombre + " tiene " + Edad + " años");
+    System.out.println("Tu inicial es: " + inicial);
  }   
 }
