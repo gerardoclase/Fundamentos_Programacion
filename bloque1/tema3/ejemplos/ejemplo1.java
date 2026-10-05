@@ -1,3 +1,4 @@
+package bloque1.tema3.ejemplos;
 import java.util.Scanner;
 
 public class ejemplo1 {
@@ -8,4 +9,4 @@ public class ejemplo1 {
        String nombre = sc.nextLine();
        System.out.println("Hola " + nombre);
     }
-}
+}   
