@@ -6,6 +6,6 @@ public class ejemplo1 {
        Scanner sc = new Scanner(System.in); //Crea el objeto Scanner
        System.out.print("Dime tu nombre: ");
        String nombre = sc.nextLine();
-       System.out.println("Hola " + nombre); 
+       System.out.println("Hola " + nombre);
     }
 }
