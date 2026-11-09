@@ -11,9 +11,9 @@ public class ejercicio1 {
         int numero = sc.nextInt();
 
         if (numero >= 0) {
-            System.out.println(numero + " Es positivo");
+            System.out.println("Es positivo");
         } else {
-            System.out.println(numero + "Es negativo");
+            System.out.println("Es negativo");
         }
         sc.close();
     }
