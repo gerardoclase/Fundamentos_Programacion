@@ -1,7 +1,11 @@
 package bloque2.tema6.ejercicios;
 
+import java.util.Scanner;
+
 public class ejercicio4_2 {
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
         System.out.println("Eres socio? s/n");
         char socio = sc.next().charAt(0);
 
@@ -12,14 +16,14 @@ public class ejercicio4_2 {
         if (socio == 's'){
             if (efectivo == 's')
                 descuento = 7;
-            else{
+            else
                 descuento = 5;
-            }
-        }else{
-            if (efectivo == 's')
-                descuento = 2;
+            
         }else {
-            descuento = 0;
+           if (efectivo == 's')
+                descuento = 2;
+            else 
+                descuento = 0;
         }
 
         System.out.println("El descuento es: " +descuento);
